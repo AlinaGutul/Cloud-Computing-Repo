@@ -112,6 +112,10 @@ echo "Hello from $(hostname)" > /usr/share/nginx/html/index.html
 -   Health check path: `/`
 -   Статус: ****Healthy**** ✅
 
+![Шаг](/images/image1.png)
+
+![Шаг](/images/image2.png)
+
 ## ****5\. Настройка Auto Scaling Group (ASG)****
 
 ****Имя:**** `project-asg`
@@ -122,9 +126,6 @@ echo "Hello from $(hostname)" > /usr/share/nginx/html/index.html
 -   Instance type: t3.micro
 -   Security Group: launch-wizard-3
 
-![Шаг](/images/image1.png)
-
-![Шаг](/images/image2.png)
 
 ****Подсети:****
 
